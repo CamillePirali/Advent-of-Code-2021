@@ -4,7 +4,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SeaScanner {
+class SeaScanner {
 
     private List<Integer> data = new ArrayList<>();
 
