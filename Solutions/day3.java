@@ -21,8 +21,8 @@ class Submarine {
         }
     }
 
-    /* Reads the report and returns a boolean value for each bit
-    * (true if the most common bit at a given position is 1, false otherwise) */
+    /* Reads the report and returns a String for each bit
+    * (1 if the most common bit at a given position is 1, 0 otherwise) */
     public String[] readDiagnosticReport (List<String> report, int start, int end) {
         // Checks which element is most frequent at a given position
         int[] bitOccurrence = new int[end - start];
