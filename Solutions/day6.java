@@ -92,6 +92,8 @@ class RecursiveFish {
             long result = 0;
             for (Thread t : threads) {
                 t.start();
+            }
+            for (Thread t : threads) {
                 t.join();
             }
             for (Parallel p : parallels){
